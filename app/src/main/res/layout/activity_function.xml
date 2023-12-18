@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePageActivity">
+
+    <TextView
+        android:id="@+id/tvWelcome_Homepage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:hint="@string/Search"
+        android:layout_marginTop="50dp"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:autofillHints=""
+        android:inputType=""
+        android:background="@drawable/bg_btn_loginpage"
+        />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/bg_btn_loginpage"
+        android:text="@string/SearchButton"
+        android:textSize="12sp"/>
+
+
+    <Button
+        android:id="@+id/btnViewProfile"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_btn_loginpage"
+        android:text="@string/ViewProfile"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btnAddPreference"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/bg_btn_loginpage"
+        android:text="@string/AddPreference0"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/but_Logout"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/bg_btn_loginpage"
+        android:text="@string/LOGOUT"
+        android:textSize="16sp"
+
+        />
+
+</LinearLayout>

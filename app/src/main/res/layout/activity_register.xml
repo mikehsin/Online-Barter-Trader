@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".RegisterPageActivity">
+
+    <TextView
+        android:id="@+id/Logo_LoginPage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="16sp"
+        android:background="@drawable/logo"
+
+        />
+
+    <EditText
+        android:id="@+id/userName_RegisterPage"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="UserName"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:background="@drawable/bg_username"
+
+        />
+
+    <EditText
+        android:id="@+id/eamilAddress_RegisterPage"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:hint="Email"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:background="@drawable/bg_email"
+        />
+
+    <EditText
+        android:id="@+id/password_RegisterPage"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:hint="Password"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_email"
+
+        />
+
+    <EditText
+        android:id="@+id/confirmPassword_RegisterPage"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:hint="Confirm Password"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_password"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/btnRegister_RegisterPage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Sign up"
+            android:textSize="16sp"
+            android:background="@drawable/bg_btn_loginpage"
+
+
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/message_RegisterPage"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:textSize="16sp"
+
+        />
+
+</LinearLayout>

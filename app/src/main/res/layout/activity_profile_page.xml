@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".ProfilePage">
+
+    <TextView
+        android:id="@+id/tvProfileUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="100px"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop="50px"
+        />
+
+    <TextView
+        android:id="@+id/tvProfileEmailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmailAddress"
+        android:textSize="50px"
+        android:layout_alignParentTop = "true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300px"
+        android:textColor="#FF000000"
+        />
+
+    <TextView
+        android:id="@+id/tvProfileEmailAddress"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/EmailAddressExample"
+        android:textSize="50px"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop="300px"
+        android:textColor="#FF000000"
+        />
+
+    <TextView
+        android:id="@+id/tvFriendList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FriendList"
+        android:textSize="50px"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400px"
+        android:textColor="#FF000000"
+        />
+
+    <ScrollView
+        android:id="@+id/svFriendList"
+        android:layout_width="325dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="500px"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FF000000"
+        android:background="@drawable/bg_btn_loginpage"
+        />
+
+    <Button
+        android:id="@+id/profilBtnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonBack"
+        android:textAllCaps="false"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="450dp"
+        android:textColor="#FF000000"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/bg_btn_loginpage"
+        />
+
+</RelativeLayout>
